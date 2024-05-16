@@ -1,0 +1,65 @@
+
+.bgcolorbody{
+    background-color: #ECDEC9;
+}
+.bgimgflex{
+    background-image: url("../../assets/img/first-div.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-background-color{
+    background: rgba(255, 255, 255, 0.2);
+}
+.textcolor{
+    color: #5b8afd;
+}
+.socialsize{
+    height: 5vh;
+}
+.iconsize{
+    font-size: 25px;
+    color: #5b8afd;
+}
+.contentcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.robotofont{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hdivheight{
+    height: 100vh;
+}
+.maincontentheight{
+    height: 70%;
+}
+
+.pPadding{
+    padding-right: 30vw;
+}
+ul.nav a:hover { 
+    color: #4d4dfd!important;
+ }
+.skillimg{
+    width: 10vw;
+}
+.bgskillcolor{
+    background-color: #ff635c;
+}
+.bgcolorfotter{
+    background-color: #ebd4b3;
+}
+.cardborder{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
