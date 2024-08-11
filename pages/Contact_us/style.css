@@ -1,0 +1,47 @@
+
+.form-section {
+    min-height: 80vh;
+}
+
+@media (min-width: 992px) {
+    .form-section {
+        min-height: 90vh;
+    }
+}
+
+.form-control {
+    transition: transform 0.3s;
+}
+
+.form-control:focus {
+    animation: inputFocus 0.3s forwards;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+@keyframes inputFocus {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes buttonHover {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.btn:hover {
+    animation: buttonHover 0.3s forwards;
+}
+
+.btn {
+    transition: transform 0.3s;
+}

@@ -1,0 +1,170 @@
+
+body{
+    overflow-x: hidden;
+  }
+.section_heading {
+    color: #1a68bc;
+}
+
+.textAlignent {
+    text-align: justify;
+}
+
+.ecommerce-card {
+    border-radius: 0px 10px 10px 0px;
+    font-weight: normal;
+    border-left: 6px solid #1a68bc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), -10px 0 10px -10px rgba(0, 0, 0, 0.1);
+
+}
+
+.ecommerce-card1 {
+    border-radius: 10px 0px 0px 10px;
+    font-weight: normal;
+    box-shadow: 0px 4px 10px -4px rgba(0, 0, 0, 0.3);
+}
+
+
+@media (max-width: 767px) {
+
+    .ecommerce-card {
+        border-radius: 0px 0px 10px 10px;
+        font-weight: normal;
+        border-top: 6px solid #1a68bc;
+        border-left: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .ecommerce-card1 {
+        border-radius: 10px 10px 0px 0px;
+        font-weight: normal;
+        box-shadow: 0px -4px 5px -2px rgba(0, 0, 0, 0.1),
+            -4px 0px 5px -2px rgba(0, 0, 0, 0.1),
+            4px 0px 5px -2px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media (max-width: 767px) {
+
+    .for-you-row {
+        margin: 1.5rem !important;
+    }
+}
+
+.text-bold {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: large;
+}
+
+.text-bold1 {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.shadow-box {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    /* Optional: to define the border */
+    padding: 10px;
+    /* Optional: to add some padding inside the border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Adjust the values as needed */
+    background-color: #1a68bc;
+    color: #ffff;
+}
+
+.section-bg {
+    background-color: #1a68bc;
+    color: #ffffff;
+}
+
+.vision_pic {
+    height: 40vw;
+    width: 40vw;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .vision_pic {
+        margin-top: 5px;
+        height: 40vh;
+        width: 40vh;
+    }
+}
+
+.email-marketing-p {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+@media (max-width: 600px) {
+    .email-marketing-p {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .email-marketing-tech {
+        display: none;
+    }
+}
+
+.row-email-tech {
+    border-radius: 0px 0px 20px 20px;
+    border-top: 5px solid #1a68bc;
+    /* Top border color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+        /* Bottom shadow */
+        -4px 0 6px rgba(0, 0, 0, 0.1),
+        /* Left shadow */
+        4px 0 6px rgba(0, 0, 0, 0.1);
+    /* Right shadow */
+}
+
+.seo-card {
+    border-left: 5px solid #fff;
+    font-weight: normal;
+}
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 350ms ease-in;
+  }
+  
+  .fade-in.appear {
+    opacity: 1;
+  }
+  
+  .from-left {
+    grid-column: 2 / 3;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .from-right {
+    grid-column: 3 / 4;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+  
+  .from-left,
+  .from-right {
+    transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+    transition: opacity 250ms ease-in, transform 400ms ease-in,
+      -webkit-transform 400ms ease-in;
+    opacity: 0;
+  }
+  
+  .from-left.appear,
+  .from-right.appear {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }

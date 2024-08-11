@@ -1,0 +1,66 @@
+body{
+    overflow-x: hidden;
+  }
+    .banner-section-price.section-dev {
+        background-color: #1a68bc;
+        padding: 60px;
+        color: #fff;
+    }
+
+    .list_ai {
+        background-color: #1a68bc;
+    }
+
+    @media (min-width: 1280px) {
+        .banner-section-price {
+            padding-bottom: 130px;
+        }
+    }
+
+    .photoshop-Symbol-size {
+        width: 30vw;
+        height: 60vh;
+        border-radius: 10px;
+    }
+
+    @media (max-width: 767px) {
+        .photoshop-Symbol-size {
+            width: 60vw;
+            height: 30vh;
+            padding: 5px;
+        }
+    }
+
+    .textAlignent {
+        text-align: justify;
+    }
+
+    .rich-text-style-services {
+        color: #fff;
+        width: 100%;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .benefits_title {
+        color: #1a68bc;
+    }
+
+    strong {
+        color: #1a68bc;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .fade-in {
+        opacity: 0;
+        transition: opacity 350ms ease-in;
+      }
+      
+      .fade-in.appear {
+        opacity: 1;
+      }
+      
+     

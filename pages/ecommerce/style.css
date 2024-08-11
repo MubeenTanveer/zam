@@ -1,0 +1,138 @@
+body{
+    overflow-x: hidden;
+  }
+.ecoomerce-head-img {
+    width: 80%;
+    height: 70vh;
+}
+
+@media (max-width: 767px) {
+
+    .ecoomerce-head-img {
+        width: 80%;
+        height: 20vh;
+    }
+}
+
+
+.bo-color {
+    background-color: #1a68bc;
+    color: white;
+}
+
+.ecoomerce-head-color {
+    color: #1a68bc;
+}
+
+.Shopify-Symbol-size {
+    width: 25vw;
+    height: 40vh;
+}
+
+@media (max-width: 767px) {
+
+    .Shopify-Symbol-size {
+        width: 50vw;
+        height: 20vh;
+    }
+}
+
+.textAlignent {
+    text-align: justify;
+}
+
+.ecommerce-card {
+    border-radius: 0px 10px 10px 0px;
+    font-weight: normal;
+    border-left: 6px solid #1a68bc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), -10px 0 10px -10px rgba(0, 0, 0, 0.1);
+
+}
+
+.ecommerce-card1 {
+    border-radius: 10px 0px 0px 10px;
+    font-weight: normal;
+    box-shadow: 0px 4px 10px -4px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 767px) {
+
+    .ecommerce-card {
+        border-radius: 0px 0px 10px 10px;
+        font-weight: normal;
+        border-top: 6px solid #1a68bc;
+        border-left: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .ecommerce-card1 {
+        border-radius: 10px 10px 0px 0px;
+        font-weight: normal;
+        box-shadow: 0px -4px 5px -2px rgba(0, 0, 0, 0.1),
+            -4px 0px 5px -2px rgba(0, 0, 0, 0.1),
+            4px 0px 5px -2px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.text-bold {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: large;
+}
+
+.text-bold1 {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.other-img {
+    width: 20vw;
+    height: 30vh;
+}
+
+.aliexpress-img {
+    width: 15vw;
+    height: 20vh;
+}
+
+/* animation */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 350ms ease-in;
+  }
+  
+  .fade-in.appear {
+    opacity: 1;
+  }
+  
+  .from-left {
+    grid-column: 2 / 3;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .from-right {
+    grid-column: 3 / 4;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+  
+  .from-left,
+  .from-right {
+    transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+    transition: opacity 250ms ease-in, transform 400ms ease-in,
+      -webkit-transform 400ms ease-in;
+    opacity: 0;
+  }
+  
+  .from-left.appear,
+  .from-right.appear {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
